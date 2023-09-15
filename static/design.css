@@ -1,0 +1,127 @@
+.main{
+    text-align: center;
+    margin-top: 60px;
+    box-shadow: 30px black;
+}
+.main input{
+    width: 350px;
+    height: 47px;
+    text-align: center;
+    border: 2px solid rgb(112, 104, 104);
+    border-radius: 25px;
+    background-color:whitesmoke;
+    color:black;
+    font-size: 20px;
+    font-family:Georgia;
+    box-shadow: 30px 20px 30px 0px rgb(196, 194, 194);
+}
+.main input:hover{
+    border: 3px solid rgb(119, 115, 115);
+    transition: 0.3s ease ease-in;
+}
+::placeholder{
+    color: rgb(147, 141, 141);
+    font-size: 20px;
+    font-family: Georgia;
+}
+button{
+    width:105px;
+    height:47px;
+    border: none;
+    background-color:rgb(157, 71, 157);
+    border: 1px solid black;
+    border-radius:  30px 30px 30px 30px;
+    font-family: Georgia;
+    font-size: 20px;
+    cursor:pointer;
+    margin-left: 0px;
+    color: antiquewhite;
+    
+}
+button:hover{
+    background-color: rgb(112, 26, 43);
+    transition: 0.3s ease-in;
+    
+}
+.main i{
+    font-size: 25px;
+    font-weight: 600;
+    color: rgb(98, 92, 92);
+}
+h1{
+    text-align: center;
+    font-family: Georgia;
+    color: #836953;
+}
+h2{
+    text-align: center;
+}
+p{
+    text-align: center;
+    font-family:Georgia;
+}
+.p_image{
+    padding-top: 20px;
+}
+
+.p_image img{
+    margin-top:50px;
+    margin-left: 300px;
+    cursor: pointer;
+    padding:20px;
+}
+.p_image img:hover{
+    box-shadow: 15px 10px 15px 10px rgb(196, 194, 194);
+    transition: 0.3s ease;
+}
+.p_details{
+    width: 650px;
+    height:42vh;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+.p_details:hover{
+    box-shadow: 15px 10px 15px 10px rgb(196, 194, 194);
+    transition: 0.3s ease;
+}
+.p_container{
+    display: flex;
+    padding: 20px;
+}
+.p_name{
+    padding: 10px;
+    font-family:sans-serif;
+    font-size: 17px;
+}
+.p_name:hover{
+    cursor: pointer;
+    text-shadow: 1px 1px 1px rgb(180, 173, 173);
+    transition: 0.3s ease;
+}
+.p_price{
+    padding: 10px;
+    font-family: Georgia;
+    color: #006400;
+    font-size: 20px;
+}
+.p_rating{
+    padding: 10px;
+    font-family: Georgia;
+    color: blueviolet;
+    font-size: 18px;
+}
+.p_URL{
+    padding: 10px;
+    font-family: Georgia;
+    color: #9f4576;
+    word-break: break-all;
+    font-weight:bold;
+}
+.p_URL a{
+    width: 400px;
+    height: 20vh;
+    color:#2907b0;
+}
